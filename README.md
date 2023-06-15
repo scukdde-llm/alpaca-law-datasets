@@ -1,5 +1,7 @@
 # Alpaca-LAW-Datasets
 使用 CovScript 将原始的 CrimeKgAssitantCleaned 转换成通用性更强的 Alpaca 格式
+
+HuggingFace Hub: https://huggingface.co/datasets/scu-kdde/alpaca-law
 ## Setup
 请先[安装 CovScript](https://unicov.cn/covscript/) 
 ```bash
