@@ -1,0 +1,7 @@
+import codec.json
+var obj = json.to_var(json.from_stream(iostream.ifstream("./CrimeKgAssitantCleaned_52k.json")))
+foreach it in obj
+    it.insert("instruction", it.input)
+    it.input = ""
+end
+json.from_var(obj).to_stream(iostream.ofstream("./CrimeKgAssitantAlpaca_52k.json"))
